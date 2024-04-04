@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/getporter/skeletor/pkg/skeletor"
+	"github.com/getporter/FabricNew/pkg/FabricNew"
 	"github.com/spf13/cobra"
 )
 
-func buildUpgradeCommand(m *skeletor.Mixin) *cobra.Command {
+func buildUpgradeCommand(m *FabricNew.Mixin) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "upgrade",
 		Short: "Execute the invoke functionality of this mixin",

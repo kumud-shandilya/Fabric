@@ -1,4 +1,4 @@
-package skeletor
+package FabricNew
 
 import (
 	_ "embed"
